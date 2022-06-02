@@ -24,5 +24,7 @@ form.addEventListener('submit',function(e)
         document.getElementById("email").innerHTML=data.email;       
         document.getElementById("bio").innerHTML=data.bio;       
         document.getElementById("com").innerHTML=data.company;       
+        document.getElementById("link").href=data.html_url;       
+        document.getElementById("link").innerHTML=data.login;       
     })
 })
